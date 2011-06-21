@@ -1,0 +1,94 @@
+#leftBar
+{
+   height: 100%;
+   float: left;
+   border-right: 3px solid red;
+   padding: 40px;
+   margin-bottom: 20px;
+   margin-top: 20px;
+   margin-right: 20px;
+
+}
+
+#content
+{
+   float: left;
+   clear: right;
+   margin: 20px 20px;
+   font-size: 30px;
+}
+
+body
+{
+   padding: 0px;
+   margin: 0px;
+
+   font: 20px Aria, sans-serif;
+   color: red;
+}
+
+#rightBar
+{
+   height: 100%;
+   float:right;
+   padding: 40px;
+   border-left: 3px solid red;
+   margin-bottom: 20px;
+   margin-top: 20px;
+   margin-left: 20px;
+
+
+}
+
+#wrapper
+{
+   height: 900px;
+}
+
+#footer
+{
+   clear: both;
+  border-bottom: 30px solid red;
+  margin: 0px;
+}
+
+.menu
+{
+   list-style: none;
+   text-align: center;
+   display: block;
+   padding: 0px;
+}
+
+.menu li
+{
+   padding-right: 0px;
+   display: block;
+   margin-top: 40px;
+   margin-bottom: 40px;
+}
+
+.menu li a
+{
+   text-decoration: none;
+   color: red;
+}
+
+.vertCenter
+{
+   display:table;
+   height: 100%;
+}
+
+.vertCenter2
+{
+  /* position:absolute; top:50%; height: 10em; margin-top: -5em;*/
+   
+   vertical-align: middle;
+   display: table-cell;
+}
+
+.vertCenter p
+{
+   padding-bottom: 50px;
+}
