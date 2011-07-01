@@ -1,21 +1,27 @@
 #leftBar
 {
-   height: 100%;
-   float: left;
-   border-right: 3px solid red;
-   padding: 40px;
-   margin-bottom: 20px;
-   margin-top: 20px;
-   margin-right: 20px;
+   position: fixed;
+   left: 0px;
 
+   height: 100%;
+   padding: 40px;
+   border-right: 3px solid red;
 }
+
+.centered
+{
+   text-align: center;
+}
+
+h1 { font-family: 'Maven Pro', arial, serif; font-size: 3em;}
 
 #content
 {
    float: left;
-   clear: right;
-   margin: 20px 20px;
-   font-size: 30px;
+   clear: left;
+   font-size: 1em;
+   margin-left: 290px;
+   margin-right: 290px;
 }
 
 body
@@ -29,27 +35,23 @@ body
 
 #rightBar
 {
+   position: fixed;
+   right: 0px;
+
    height: 100%;
-   float:right;
    padding: 40px;
    border-left: 3px solid red;
-   margin-bottom: 20px;
-   margin-top: 20px;
-   margin-left: 20px;
-
-
 }
-
+img {border: none;margin: 10px;}
 #wrapper
 {
-   height: 900px;
 }
 
 #footer
 {
    clear: both;
-  border-bottom: 30px solid red;
-  margin: 0px;
+   border-bottom: 30px solid red;
+   margin: 0px;
 }
 
 .menu
@@ -82,8 +84,8 @@ body
 
 .vertCenter2
 {
-  /* position:absolute; top:50%; height: 10em; margin-top: -5em;*/
-   
+   /* position:absolute; top:50%; height: 10em; margin-top: -5em;*/
+
    vertical-align: middle;
    display: table-cell;
 }
