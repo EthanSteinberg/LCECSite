@@ -55,28 +55,6 @@ img {border: none;margin: 10px;}
    margin: 0px;
 }
 
-.menu
-{
-   list-style: none;
-   text-align: center;
-   display: block;
-   padding: 0px;
-}
-
-.menu li
-{
-   padding-right: 0px;
-   display: block;
-   margin-top: 40px;
-   margin-bottom: 40px;
-}
-
-.menu li a
-{
-   text-decoration: none;
-   color: red;
-}
-
 .vertCenter
 {
    display:table;
@@ -94,11 +72,4 @@ img {border: none;margin: 10px;}
 .vertCenter p
 {
    padding-bottom: 50px;
-}
-
-.bold
-{
-   font-weight: bold;
-   height: 100px;
-   color: blue;
 }

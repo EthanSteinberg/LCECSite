@@ -28,13 +28,13 @@
 
 <ul id="navmenu-v"> 
    <li><a href="{{BASE_URL}}index.html">Home</a></li> 
+
    <li><a href="{{BASE_URL}}about2429/first.html">About 2429</a>
    {% include "about2429/menuabout2429.html" %}
    </li>
-   <li><a href="#">FRC Competition</a> </li>
-   <li><a href="#">Solar Boat</a></li> 
-   <li><a href="#">Studio</a></li> 
-   <li><a href="#">Sponsors</a></li> 
-   <li><a href="#">Safety</a></li> 
-   <li><a href="#">FIRST</a></li> 
+
+      <li> <a> Competitions </a> 
+   {% include "game/menugame.html" %}
+   </li>
+   <li><a href="{{BASE_URL}}about2429/spon.html">Sponsors</a></li> 
 </ul> 
