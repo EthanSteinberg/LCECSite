@@ -1,37 +1,56 @@
-FIRST/FIRST.html: [leftBar.html, rightBar.html, base.html]
-about.html: [leftBar.html, rightBar.html, base.html]
-about2429/afgan.html: [menu.html, leftBar.html, rightBar.html, base.html, about2429/menuabout2429.html]
-about2429/alumni.html: [menu.html, leftBar.html, rightBar.html, base.html, about2429/menuabout2429.html]
-about2429/first.html: [menu.html, leftBar.html, rightBar.html, base.html, about2429/menuabout2429.html]
-about2429/join.html: [menu.html, leftBar.html, rightBar.html, base.html, about2429/menuabout2429.html]
-about2429/la10pics.html: [menu.html, leftBar.html, rightBar.html, base.html, about2429/menuabout2429.html]
-about2429/members.html: [menu.html, leftBar.html, rightBar.html, base.html, about2429/menuabout2429.html]
-about2429/mentors.html: [menu.html, leftBar.html, rightBar.html, base.html, about2429/menuabout2429.html]
+FIRST/FIRST.html: [leftBarMenu.html, about2429/menuabout2429.html, leftBar.html, rightBar.html,
+  base.html]
+about.html: [leftBarMenu.html, about2429/menuabout2429.html, leftBar.html, rightBar.html,
+  base.html]
+about2429/afgan.html: [leftBarMenu.html, about2429/menuabout2429.html, leftBar.html,
+  rightBar.html, base.html]
+about2429/alumni.html: [leftBarMenu.html, about2429/menuabout2429.html, leftBar.html,
+  rightBar.html, base.html]
+about2429/first.html: [leftBarMenu.html, about2429/menuabout2429.html, leftBar.html,
+  rightBar.html, base.html]
+about2429/join.html: [leftBarMenu.html, about2429/menuabout2429.html, leftBar.html,
+  rightBar.html, base.html]
+about2429/la10pics.html: [leftBarMenu.html, about2429/menuabout2429.html, leftBar.html,
+  rightBar.html, base.html]
+about2429/members.html: [leftBarMenu.html, about2429/menuabout2429.html, leftBar.html,
+  rightBar.html, base.html]
+about2429/mentors.html: [leftBarMenu.html, about2429/menuabout2429.html, leftBar.html,
+  rightBar.html, base.html]
 about2429/menuabout2429.html: []
-about2429/pics.html: [menu.html, leftBar.html, rightBar.html, base.html, about2429/menuabout2429.html]
-about2429/pics10.html: [menu.html, leftBar.html, rightBar.html, base.html, about2429/menuabout2429.html]
+about2429/pics.html: [leftBarMenu.html, about2429/menuabout2429.html, leftBar.html,
+  rightBar.html, base.html]
+about2429/pics10.html: [leftBarMenu.html, about2429/menuabout2429.html, leftBar.html,
+  rightBar.html, base.html]
 about2429/slide.css: []
-about2429/spon.html: [menu.html, leftBar.html, rightBar.html, base.html, about2429/menuabout2429.html]
+about2429/spon.html: [leftBarMenu.html, about2429/menuabout2429.html, leftBar.html,
+  rightBar.html, base.html]
 allpages.css: []
 autosize.js: []
-base.html: [leftBar.html, rightBar.html]
+base.html: [leftBarMenu.html, leftBar.html, rightBar.html, about2429/menuabout2429.html]
 baseOld.html: []
-cal.html: [leftBar.html, rightBar.html, base.html]
-game/game.html: [game/menugame.html, menu.html, leftBar.html, rightBar.html, base.html]
-game/game2009.html: [game/menugame2009.html, menu.html, leftBar.html, rightBar.html,
+cal.html: [leftBarMenu.html, about2429/menuabout2429.html, leftBar.html, rightBar.html,
   base.html]
-game/game2010.html: [game/menugame.html, menu.html, leftBar.html, rightBar.html, base.html]
+game/game.html: [menu.html, base.html, leftBarMenu.html, about2429/menuabout2429.html,
+  game/menugame.html, rightBar.html, leftBar.html]
+game/game2009.html: [menu.html, base.html, leftBarMenu.html, about2429/menuabout2429.html,
+  rightBar.html, game/menugame2009.html, leftBar.html]
+game/game2010.html: [menu.html, base.html, leftBarMenu.html, about2429/menuabout2429.html,
+  game/menugame.html, rightBar.html, leftBar.html]
 game/menugame.html: []
 game/menugame2009.html: []
 hoverable.js: []
-index.html: [leftBar.html, rightBar.html, base.html]
+index.html: [leftBarMenu.html, about2429/menuabout2429.html, leftBar.html, rightBar.html,
+  base.html]
 jquery.dropdownPlain.js: []
-leftBar.html: []
+leftBar.html: [leftBarMenu.html, about2429/menuabout2429.html]
+leftBarMenu.html: [about2429/menuabout2429.html]
 main.css: []
 menu.html: []
+menuCSS.css: []
 menuJava.html: []
 menuStyle.css: []
-ms.html: [leftBar.html, rightBar.html, base.html]
+ms.html: [leftBarMenu.html, about2429/menuabout2429.html, leftBar.html, rightBar.html,
+  base.html]
 nicEdit.js: []
 pics/pic/album/blank.html: []
 pics/pic/album/index.html: []
@@ -40,13 +59,19 @@ res/mootools.js: []
 res/mootools_tip.js: []
 res/styles.css: []
 res/swfobject.js: []
+reset.css: []
 rightBar.html: []
-safety/sfty.html: [leftBar.html, rightBar.html, base.html]
-studio/cs.html: [menu.html, leftBar.html, rightBar.html, studio/menustudio.html, base.html]
-studio/doc.html: [menu.html, leftBar.html, rightBar.html, studio/menustudio.html,
+safety/sfty.html: [leftBarMenu.html, about2429/menuabout2429.html, leftBar.html, rightBar.html,
   base.html]
-studio/ds.html: [menu.html, leftBar.html, rightBar.html, studio/menustudio.html, base.html]
+studio/cs.html: [menu.html, base.html, leftBarMenu.html, studio/menustudio.html, about2429/menuabout2429.html,
+  rightBar.html, leftBar.html]
+studio/doc.html: [menu.html, base.html, leftBarMenu.html, studio/menustudio.html,
+  about2429/menuabout2429.html, rightBar.html, leftBar.html]
+studio/ds.html: [menu.html, base.html, leftBarMenu.html, studio/menustudio.html, about2429/menuabout2429.html,
+  rightBar.html, leftBar.html]
 studio/menustudio.html: []
-studio/st.html: [menu.html, leftBar.html, rightBar.html, studio/menustudio.html, base.html]
-studio/wksp.html: [menu.html, leftBar.html, rightBar.html, studio/menustudio.html,
-  base.html]
+studio/st.html: [menu.html, base.html, leftBarMenu.html, studio/menustudio.html, about2429/menuabout2429.html,
+  rightBar.html, leftBar.html]
+studio/wksp.html: [menu.html, base.html, leftBarMenu.html, studio/menustudio.html,
+  about2429/menuabout2429.html, rightBar.html, leftBar.html]
+test.html: [leftBar.html, rightBar.html, base.html]

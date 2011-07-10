@@ -95,3 +95,10 @@ img {border: none;margin: 10px;}
 {
    padding-bottom: 50px;
 }
+
+.bold
+{
+   font-weight: bold;
+   height: 100px;
+   color: blue;
+}
