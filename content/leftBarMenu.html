@@ -2,39 +2,71 @@
 
    $(document).ready(function ()
          {
+
+
+
+
          var lis = $("#navmenu-v *");
-         lis.mouseenter( function () { lis.removeClass("iehover"); });
+/*
+         function onIn() {
+         $(this).addClass("iehover");}
+
+         function onOut()
+         {
+         $(this).removeClass("iehover");}
+
+*/
+lis.mouseenter( function () {
+      window.setTimeout( function () { 
+         lis.removeClass("iehover");
+         lis.unbind('mouseenter');
+         /*
+         $("#navmenu-v *").hoverIntent({
+sensitivity: 100,
+interval: 200,   
+over: onIn,  
+timeout: 200, 
+out: onOut 
 
 
-         lis.filter("a").each(function (index,elem) {
-            if (elem.href === document.URL)
-            {
-            var temp = $(elem).parent();
+});*/
 
-            while ($(temp).attr('id') != "navmenu-v") {
-
-            $(temp).addClass("iehover");
-            temp = $(temp).parent();
-            }
+         }, 100);
+      });
 
 
-            }
+
+lis.filter("a").each(function (index,elem) {
+      if (elem.href === document.URL)
+      {
+      var temp = $(elem).parent();
+
+      while ($(temp).attr('id') != "navmenu-v") {
+
+      $(temp).addClass("iehover");
+      temp = $(temp).parent();
+      }
 
 
-            });
-         });
-      
-      </script>
+      }
 
+
+      });
+});
+
+</script>
+
+   <img src="/new4/sidebarpics/header.png" alt="" style="margin: 0px;display: block;">
 <ul id="navmenu-v"> 
-   <li><a href="{{BASE_URL}}index.html">Home</a></li> 
+   <li style="background:red; width: 200px;"><a href="{{BASE_URL}}index.html">Home</a></li> 
 
-   <li><a href="{{BASE_URL}}about2429/first.html">About 2429</a>
+   <li><a href="{{BASE_URL}}about2429/first.html">About LCEC</a>
    {% include "about2429/menuabout2429.html" %}
    </li>
 
-      <li> <a> Competitions </a> 
+   <!--      <li> <a> Competitions </a>  -->
    {% include "game/menugame.html" %}
-   </li>
+   <!--  </li> -->
    <li><a href="{{BASE_URL}}about2429/spon.html">Sponsors</a></li> 
+   <img src="/new4/sidebarpics/footer.png" alt="" style="margin: 0px; display: block;">
 </ul> 

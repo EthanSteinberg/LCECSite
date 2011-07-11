@@ -7,6 +7,7 @@
       <link rel="stylesheet" href="{{BASE_URL}}main.css" type="text/css" media="screen">
       <link rel="stylesheet" href="{{BASE_URL}}menuCSS.css" type="text/css" media="screen">
       <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"> </script>
+      <script type="text/javascript" src="{{BASE_URL}}hoverIntent.js"> </script>
       <link href='http://fonts.googleapis.com/css?family=Maven+Pro:500' rel='stylesheet' type='text/css'>
       
       <script type="text/javascript">
@@ -22,16 +23,16 @@
    </head>
    <body style="margin:0px">
       <div id="wrapper">
-      <div id="leftBar">
+      <div id="leftBar" class="gradiantBG">
          {% include "leftBar.html" %}
       </div>
       <div id="content">
          {% block content %}
          {% endblock %}
       </div>
-      <div id="rightBar">
+      <!--<div id="rightBar" class="gradiantBG">
          {% include "rightBar.html" %}
-      </div>
+      </div> -->
    </div>
       <div id="footer">
       </div>

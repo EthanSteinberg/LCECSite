@@ -4,7 +4,7 @@ Description: Dynamic Menu System - Vertical
 */
 
 ul#navmenu-v,ul#navmenu-v li,ul#navmenu-v ul {
- width: 200px; /* Menu Width */
+ width: 160px; /* Menu Width */
  margin: 0;
  list-style: none;
 }
@@ -22,21 +22,21 @@ ul#navmenu-v ul {
 
 /* Root Menu */
 ul#navmenu-v a {
- /*border-top: 1px solid #FFF;
- border-right: 1px solid #FFF;*/
+ border-top: 1px solid #FFF;
+ border-right: 1px solid #FFF;
  padding: 6px;
  display: block;
- background: red;
- color: #edff9b;
- font: bold 15px  sans-serif;
+ background: #DDD;
+ color: #666;
+ font: bold 11px Arial, sans-serif;
  text-decoration: none;
  height: 1%;
 }
 
 /* Root Menu Hover Persistence */
 ul#navmenu-v a:hover,ul#navmenu-v li:hover a,ul#navmenu-v li.iehover a {
- /*background: #BBB;*/
- color: #fff0be;
+ background: #BBB;
+ color: #FFF;
 }
 
 /* 2nd Menu */
